@@ -12,7 +12,7 @@ namespace ReadAndCreate
         {
             XmlDocument doc = new();
 
-            doc.Load(@"C:\Users\ismail\Desktop\Etteplan.XML\Etteplan.XML\Data.xml");
+            doc.Load(@"C:\Users\ismail\Desktop\ReadAndCreate\ReadAndCreate\Data.xml");
 
 
             XmlNodeList nodeList = doc.SelectNodes("//body/trans-unit");
